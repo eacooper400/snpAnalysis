@@ -51,11 +51,11 @@ This script was used to get within population Fst, but could really be used to g
 
 *  pop_list = A comma delimited list of numeric codes for populations, starting at 0, so ‘0,1,2’ refers to populations 1-3 in the .snps file
 *  names.file = A text file containing all individual names for every population.  Each LINE must correspond to a single population, and consist of a comma-delimited list of individual names.  Note that the naming format must meet STRUCTURE’s requirements. Below is an example for 3 populations with 4 individuals each:
-
+```
 	FO3048,FO3162,FO3171,FO3402
 	FU0261,FU0262,FU0278,FU0286
 	MA3607,MA3626,MA3656,MA3665
-
+```
 ##### Convert snps format to hapmap.  
 The hapmap format is another text format, with rows as positions and columns as individuals.  It is very similar to the .snps file, but is designed to be read by the program ![TASSEL](http://www.maizegenetics.net/#!tassel/c17q9), which has several useful features and analytical functions.  Among other things, TASSEL will output in various file formats used by other software, including Plink.
 
