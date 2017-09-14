@@ -1,7 +1,7 @@
 # snpAnalysis
 ## Perl scripts for the analysis of dRAD SNP data
 
-### Example Workflow (to run the analyses described in ![this Molecular Ecology paper](http://onlinelibrary.wiley.com/doi/10.1111/mec.14116/abstract)
+### Example Workflow (to run the analyses described in ![this Molecular Ecology paper](http://onlinelibrary.wiley.com/doi/10.1111/mec.14116/abstract))
 
 #### Population Differentiation:
 
